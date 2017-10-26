@@ -63,6 +63,8 @@ public class LocalHostUriTemplateHandler extends RootUriTemplateHandler {
 		Assert.notNull(scheme, "Scheme must not be null");
 		this.environment = environment;
 		this.scheme = scheme;
+		//scheme
+
 	}
 
 	@Override
